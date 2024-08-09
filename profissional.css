@@ -16,12 +16,15 @@ main h1{
 }
 
 nav{
+    position: fixed;
     width: 98%;
     padding: 1%;
+    font-weight: bold;
     display: flex;
     align-items: center;
     background: rgb(202,63,251);
-    background: radial-gradient(circle, rgba(202,63,251,1) 0%, rgba(74,42,255,1) 100%);
+    background: radial-gradient(circle, rgba(202,63,251,1) 0%, #4a2aff 100%);
+    box-shadow: 10px 10px 85px -1px rgba(0,0,0,0.75);
 }
 
 nav a{
@@ -29,29 +32,41 @@ nav a{
     margin-left: 3%;
 }
 
+footer{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding: 1%;
+    width: 98%;
+    background: rgb(202,63,251);
+    background: radial-gradient(circle, rgba(202,63,251,1) 0%, #4a2aff 100%);
+    margin-top: 5%;
+}
+
 main{
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .apresentacao{
-    margin: 6% 10% 9% 10%;
+    margin: 6% 0% 9% 7%;
     display: flex;
 }
 
 .texto_apresentacao{
-    width: 65%;
-    margin: 4%;
+    width: 55%;
 }
 
 .texto_apresentacao h1{
-    color: #ca3ffb;
+    color: #8400ff ;
 }
 
-.apresentacao img{
-    width: 350px;
-    height: auto;
+#eu{
+    width: 35%;
+    height: 35%;
+    padding: 0.5%;
 }
 
 .icons img{
@@ -100,7 +115,7 @@ main{
 
 .texto_formacao{
     padding: 1%;
-    background-color: #ca3ffb;
+    background-color: #8400ff ;
     border-radius: 10px;
 }
 
@@ -110,7 +125,7 @@ main{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    background-color: #ca3ffb;
+    background-color: #8400ff ;
 }
 
 .linguagem1{
@@ -129,11 +144,11 @@ main{
 } 
 
 .linguagem img{
-    width: 200px;
+    width: 40%;
     height: auto;
     border-radius: 40px;
     background-color: black;
-    padding: 5%;
+    padding: 10%;
     box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.77);
 }
 
@@ -142,11 +157,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3%;
+    margin: 2%;
 } 
 
 .aboutme{
-    background-color: #ca3ffb;
+    background-color: #8400ff ;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -163,7 +178,7 @@ main{
 
 
 .texto_sobremim img{
-    width: 200px;
+    width: 35%;
 }
 
 .texto_sobremim{
@@ -173,7 +188,8 @@ main{
 }
 
 .texto_sobremim h3{
-    margin-left: 10%;
+    margin-left: 4%;
+    margin-right: 2%;
 }
 
 .contato{
@@ -196,4 +212,92 @@ main{
     margin: 1%;
 }
 
+.experiencias{
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
 
+.experiencia img{
+    width: 250px;
+    height: auto;
+    margin: 3%;
+    border-radius: 100%;
+}
+
+.experiencia{
+    padding: 2%;
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #8400ff ;
+    border-radius: 20px;
+}
+
+.habilidades{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.habilidade img{
+    width: 40%;
+    height: auto;
+    border-radius: 40px;
+    background-color: #8400ff ;
+    padding: 15%;
+    box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.77);
+}
+
+
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 2% 2% 0;
+}
+
+.h1{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2%;
+    background-color: #4a2aff;
+    border-radius: 20px;
+    padding: 1.5%;
+    margin-bottom: 4%;
+}
+
+.texto_projeto{
+    width: 50%;
+    margin: 2%;
+    
+}
+
+iframe{
+    width: 40%;
+    height: 250px;
+    border-radius: 20px;
+}
